@@ -32,8 +32,8 @@ distance4 = np.sqrt((X - center_x4)**2 + (Y - center_y4)**2)
 distance5 = np.sqrt((X - center_x5)**2 + (Y - center_y5)**2)
 distance6 = np.sqrt((X - center_x6)**2 + (Y - center_y6)**2)
 
-sigma1 = np.where(distance1 == 0, 1, distance1) * 5 / 100
-sigma2 = np.where(distance2 == 0, 1, distance2) * 5 / 100
+sigma1 = np.where(distance1 == 0, 1, distance1) * 60 / 100
+sigma2 = np.where(distance2 == 0, 1, distance2) * 60 / 100
 sigma3 = np.where(distance3 == 0, 1, distance3) * 60 / 100
 sigma4 = np.where(distance4 == 0, 1, distance4) * 60 / 100
 sigma5 = np.where(distance5 == 0, 1, distance5) * 60 / 100
