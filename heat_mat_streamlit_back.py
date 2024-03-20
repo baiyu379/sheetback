@@ -47,7 +47,7 @@ data5 = np.exp(-((X - center_x5)**2 + (Y - center_y5)**2) / (2 * sigma5**2))
 data6 = np.exp(-((X - center_x6)**2 + (Y - center_y6)**2) / (2 * sigma6**2))
 
 # データ合算の係数をサイドバーに追加
-coeff_data1 = st.sidebar.slider('Coefficient for Data 1', min_value=0.0, max_value=10.0, value=1.0)
+coeff_data1 = st.sidebar.slider('Coefficient for Data 1', min_value=1.0, max_value=10.0, value=1.0)
 
 # 各データを合算
 data = data1 + data2 + data3 + data4 + coeff_data1 *data5 + coeff_data1 * data6
