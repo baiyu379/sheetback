@@ -12,13 +12,13 @@ center_x1 = 35
 center_y1 = 80
 center_x2 = 65
 center_y2 = 80
-center_x3 = 30
+center_x3 = 35
 center_y3 = 50  # 新しい中心点
-center_x4 = 70
+center_x4 = 65
 center_y4 = 50
-center_x5 = 30
+center_x5 = 35
 center_y5 = 20  # 新しい中心点
-center_x6 = 70
+center_x6 = 65
 center_y6 = 20
 
 # ガウシアン関数によるデータ生成（各中心点から）
