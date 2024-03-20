@@ -8,17 +8,17 @@ x = np.arange(1, 100)
 y = np.arange(1, 120)
 
 # 中心点を指定
-center_x1 = 35
+center_x1 = 37
 center_y1 = 80
-center_x2 = 65
+center_x2 = 63
 center_y2 = 80
-center_x3 = 35
+center_x3 = 37
 center_y3 = 50  # 新しい中心点
-center_x4 = 65
+center_x4 = 63
 center_y4 = 50
-center_x5 = 35
+center_x5 = 37
 center_y5 = 20  # 新しい中心点
-center_x6 = 65
+center_x6 = 63
 center_y6 = 20
 
 # ガウシアン関数によるデータ生成（各中心点から）
